@@ -1,0 +1,60 @@
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    margin-top: 50px;
+    /* border-style: solid; */
+    border-radius: 5px;
+    width: 70mm;
+    height: 80mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: grey;
+}
+
+.input{
+    width: 50mm;
+    height: 9mm;
+
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 2px;
+}
+
+.submit-btn{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+.table{
+    width: 150mm;
+    margin-top: 50px;
+}
+
+.user-details-btn{
+    width: 25mm;
+    height: 10mm;
+    border-style: none;
+    border-radius: 5px;
+    background-color: aquamarine;
+    color: black;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
